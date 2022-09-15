@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yui-guesthouse</title>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-----------------------------------------
+  header:page-top
+  -------------------------------------------->
+  <header class="header">
+    <a href="#" class="logo">Yui</a>
+    <nav class="navbar">
+      <a href="index.html">top</a>
+      <a href="hostel.html">hostel</a>
+      <a href="cafe.html">cafe</a>
+      <a href="bar.html">bar</a>
+      <a href="booking.html">booking</a>
+      <a href="contact.html">contact</a>
+    </nav>
+    <div id="menu-btn" class="fas fa-bars"></div>
+  </header>
+
+  <!-----------------------------------------
+  main-img:top
+  -------------------------------------------->
+  <div class="book-container">
+    <div class="main-img"></div>
+  </div>
+
+  <!-----------------------------------------
+  booking
+  -------------------------------------------->
+  <section id="book" class="book">
+    <h2 class="main-title">book</h2>
+
+    <form action="">
+      <div class="inputbox">
+        <h3>Your name</h3>
+        <input type="text" placeholder="your name"> 
+      </div>
+      <div class="inputbox">
+        <h3>how many</h3>
+        <input type="number" placeholder="number of guests"> 
+      </div>
+      <div class="inputbox">
+        <h3>dormitory type</h3>
+        <select>
+          <option>mixed dormitory</option>
+          <option>Women-only dormitory</option>
+          <option>private room</option>
+        </select>
+      </div>
+      <div class="inputbox">
+        <h3>arrivals</h3>
+        <input type="date"> 
+      </div>
+      <div class="inputbox">
+        <h3>leaving</h3>
+        <input type="date"> 
+      </div>
+      <input type="submit" class="btn" value="book now">
+    </form>
+  </section>
+
+  <!-----------------------------------------
+  footer
+  -------------------------------------------->
+  <footer>
+    <h2>guest house <span>yui</span> </h2>
+    <p> &copy; guest house yui | all rights reserved.</p>
+  </footer>
+
+
+
+
+
+
+
+
+  <script src="js/book.js"></script>
+</body>
